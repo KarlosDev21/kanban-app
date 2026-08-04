@@ -22,3 +22,10 @@ Feito com PHP puro, MySQL e JavaScript vanilla (sem framework nenhum).
 | Autenticação   | Sessão do PHP + `password_hash()`|
 
 ## 📁 Estrutura do Projeto
+
+kanban-app/
+├── app/ # Lógica de aplicação (models, controllers, helpers)
+├── public/ # Webroot público (entry points, assets, API)
+├── database/ # Scripts SQL (schema e seed)
+└── storage/logs/ # Logs da aplicação
+
