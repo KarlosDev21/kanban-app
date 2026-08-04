@@ -1,1 +1,16 @@
+# Ambiente
 .env
+
+# Dependências (se usar Composer)
+/vendor/
+
+# Logs
+storage/logs/*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
